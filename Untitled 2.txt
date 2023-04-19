@@ -1,0 +1,64 @@
+v1final-3.pdf
+
+Q2. Ans: E
+
+Q3. Ans: D
+
+Q4. Ans: D
+
+Q5. Ans: Trivial.
+
+Q6. Ans: F
+
+Q7. Ans: A
+
+Q8. Ans: A
+
+Q9. Ans: 
+
+Q10. 0x1E, Qii
+
+2_11110 = 0x1E
+
+Q11. Trivial
+
+Q12. 
+Ans: 
+CMPS r0, #0xff
+MULNE r1, r3, #63
+MULEQ r1, r2, #33
+ADD r4, r0, r1, LSR =r0
+ADD r5, r6, r7, ASR #4
+
+Q13. Ans: LDMED
+
+Q14. Ans: STMFA
+
+Q15. Trivial.
+
+Q16. Trivial. 
+
+Q17. 
+Ans: 
+STMIB sp!, {r1, r3, r5}
+LDMDA sp!, {r4, r2, r6}
+
+Q18. 
+LDMIA sp!, pc
+
+Q19. 
+STMIA sp!, fp
+MOV fp, [sp, #4]!
+ADD [sp, #4]!
+
+SUB [sp, #4]!
+LDMDB sp!, fp
+
+Q20. 
+LDR r0, [fp, #-8]
+STR r0, [sp, #4]!
+
+SUB r0, #-4
+STR r0, [sp, #4]!
+
+Q21. Trivial. 
